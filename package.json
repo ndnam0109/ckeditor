@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^37.1.0",
+    "@ckeditor/ckeditor5-core": "^37.1.0",
+    "@ckeditor/ckeditor5-dev-utils": "^37.0.1",
+    "@ckeditor/ckeditor5-editor-classic": "^37.1.0",
+    "@ckeditor/ckeditor5-essentials": "^37.1.0",
+    "@ckeditor/ckeditor5-heading": "^37.1.0",
+    "@ckeditor/ckeditor5-inspector": "^4.1.0",
+    "@ckeditor/ckeditor5-list": "^37.1.0",
+    "@ckeditor/ckeditor5-paragraph": "^37.1.0",
+    "@ckeditor/ckeditor5-theme-lark": "^37.1.0",
+    "@ckeditor/ckeditor5-ui": "^37.1.0",
+    "@ckeditor/ckeditor5-widget": "^37.1.0",
+    "css-loader": "5",
+    "postcss-loader": "4",
+    "raw-loader": "4",
+    "style-loader": "2",
+    "webpack": "5",
+    "webpack-cli": "4"
+  }
+}

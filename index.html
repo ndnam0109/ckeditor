@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor 5 Framework – Implementing a simple widget</title>
+
+    <style>
+        .simple-box {
+            padding: 15px;
+            margin: 1em 0;
+            border-left: 3px solid #ab47bc;
+            background-color: rgba(171,71,188,.1);
+        }
+
+        .simple-box-title, .simple-box-description {
+            padding: 10px;
+            margin: 0;
+        }
+
+        .simple-box-title {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="editor">
+    <p>This is a simple box:</p>
+
+    <section class="simple-box">
+        <h1 class="simple-box-title">Box title</h1>
+        <div class="simple-box-description">
+            <p>The description goes here.</p>
+            <ul>
+                <li>It can contain lists,</li>
+                <li>and other block elements like headings.</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>
