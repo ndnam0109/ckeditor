@@ -20,14 +20,18 @@ export default class InsertSimpleBoxCommand extends Command {
     }
 }
 
+
 function createSimpleBox( writer ) {
     const simpleBox = writer.createElement( 'simpleBox' );
     const simpleBoxTitle = writer.createElement( 'simpleBoxTitle' );
+    const simpleBoxDescription = writer.createElement( 'simpleBoxDescription' );
 
     writer.append( simpleBoxTitle, simpleBox );
+    writer.append( simpleBoxDescription, simpleBox );
 
     // There must be at least one paragraph for the description to be editable.
     // See https://github.com/ckeditor/ckeditor5/issues/1464.
+    writer.appendElement( 'paragraph', simpleBoxDescription );
 
     return simpleBox;
 }
